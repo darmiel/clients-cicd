@@ -173,27 +173,39 @@ targets:
   - key: Browser
     display: "🌎 Browser-Based" # TODO: only 1-level heading
     has:
-      Browser: Browser
+      - name: Browser
+        mapped: Browser
 
   - key: Desktop
     display: "💻 Desktop"
     has:
-      Windows: "Windows"
-      macOS: "macOS"
-      Linux: "Linux"
-      SailfishOS: "Sailfish OS"
+      - name: Windows
+        mapped: Windows
+      - name: macOS
+        mapped: "macOS"
+      - name: Linux
+        mapped: "Linux"
+      - name: SailfishOS
+        mapped: "Sailfish OS"
 
   - key: Mobile
     display: "📱 Mobile"
     has:
-      iOS: "iOS"
-      Android: "Android"
+      - name: iOS
+        mapped: "iOS"
+      - name: Android
+        mapped: "Android"
 
   - key: TV
     display: "📺 TV"
     has:
-      AppleTV: "Apple TV" # TODO: order
-      AndroidTV: "Android TV"
-      Kodi: "Kodi"
-      Roku: "Roku"
-      WebOS: "webOS"
+      - name: AppleTV
+        mapped: "Apple TV"
+      - name: AndroidTV
+        mapped: "Android TV"
+      - name: Kodi
+        mapped: "Kodi"
+      - name: Roku
+        mapped: "Roku"
+      - name: WebOS
+        mapped: "webOS"
