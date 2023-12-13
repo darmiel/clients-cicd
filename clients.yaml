@@ -9,7 +9,7 @@ clients:
       - icon: flathub
         url: https://flathub.org/apps/details/com.github.iwalton3.jellyfin-media-player
 
-  - name: "Swiftfin YT"
+  - name: "Swiftfin :)"
     targets: [ iOS, AppleTV ]
     oss: https://github.com/jellyfin/swiftfin
     official: false
