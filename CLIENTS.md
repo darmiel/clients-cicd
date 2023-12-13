@@ -48,7 +48,7 @@ Edit clients.yaml
 
 | Name | OSS | Free | Paid | Downloads |
 | ---- | --- | ---- | ---- | --------- |
-| [Swiftfin :) 🛠️](https://github.com/jellyfin/swiftfin) | ✅ | ✅ | ❎ | <a href="https://apps.apple.com/ca/app/swiftfin/id1604098728"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/appstore-dark.png"><source media="(prefers-color-scheme: light)" srcset="assets/appstore-light.png"><img src="assets/appstore-dark.png"></picture></a> |
+| [Swiftfin 🛠️](https://github.com/jellyfin/swiftfin) | ✅ | ✅ | ❎ | <a href="https://apps.apple.com/ca/app/swiftfin/id1604098728"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/appstore-dark.png"><source media="(prefers-color-scheme: light)" srcset="assets/appstore-light.png"><img src="assets/appstore-dark.png"></picture></a> |
 | [Jellyfin Mobile for iOS 🔹](https://github.com/jellyfin/jellyfin-expo) | ✅ | ✅ | ❎ | <a href="https://apps.apple.com/us/app/jellyfin-mobile/id1480192618?mt=8"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/appstore-dark.png"><source media="(prefers-color-scheme: light)" srcset="assets/appstore-light.png"><img src="assets/appstore-dark.png"></picture></a> |
 | [Infuse](https://firecore.com/infuse) | ❌ | ✅ | ☑️ | <a href="https://apps.apple.com/app/id1136220934?mt=8"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/appstore-dark.png"><source media="(prefers-color-scheme: light)" srcset="assets/appstore-light.png"><img src="assets/appstore-dark.png"></picture></a> |
 
@@ -66,7 +66,7 @@ Edit clients.yaml
 
 | Name | OSS | Free | Paid | Downloads |
 | ---- | --- | ---- | ---- | --------- |
-| [Swiftfin :) 🛠️](https://github.com/jellyfin/swiftfin) | ✅ | ✅ | ❎ | <a href="https://apps.apple.com/ca/app/swiftfin/id1604098728"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/appstore-dark.png"><source media="(prefers-color-scheme: light)" srcset="assets/appstore-light.png"><img src="assets/appstore-dark.png"></picture></a> |
+| [Swiftfin 🛠️](https://github.com/jellyfin/swiftfin) | ✅ | ✅ | ❎ | <a href="https://apps.apple.com/ca/app/swiftfin/id1604098728"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/appstore-dark.png"><source media="(prefers-color-scheme: light)" srcset="assets/appstore-light.png"><img src="assets/appstore-dark.png"></picture></a> |
 | [Infuse](https://firecore.com/infuse) | ❌ | ✅ | ☑️ | <a href="https://apps.apple.com/app/id1136220934?mt=8"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/appstore-dark.png"><source media="(prefers-color-scheme: light)" srcset="assets/appstore-light.png"><img src="assets/appstore-dark.png"></picture></a> |
 | [MrMC](https://github.com/MrMC/mrmc) | ✅ | ✅ | ☑️ | [![img](assets/amazon.png)](https://www.amazon.com/gp/product/B01ENT3I1Q/ref=mas_pm_mrmc) <a href="https://apps.apple.com/us/app/mrmc/id1059536415"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/appstore-dark.png"><source media="(prefers-color-scheme: light)" srcset="assets/appstore-light.png"><img src="assets/appstore-dark.png"></picture></a> [![img](assets/google-play-badge.png)](https://play.google.com/store/apps/details?id=tv.mrmc.mrmc) |
 
