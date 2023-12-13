@@ -32,7 +32,7 @@ jobs:
           else
             echo "$p" >> CLIENTS.md
           fi
-        done < CLIENTS.template.md
+        done < assets/clients/CLIENTS.template.md
 
     - name: Commit and push if there are changes
       run: |

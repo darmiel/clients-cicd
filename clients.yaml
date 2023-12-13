@@ -151,22 +151,22 @@ clients:
 
 icons:
   github:
-    light: "assets/github-mark-white.png"
-    dark: "assets/github-mark.png"
+    light: "assets/clients/icons/github-mark-white.png"
+    dark: "assets/clients/icons/github-mark.png"
   flathub:
-    light: "assets/flathub.png"
-    dark: "assets/flathub.png"
+    light: "assets/clients/icons/flathub.png"
+    dark: "assets/clients/icons/flathub.png"
   apple-appstore:
-    light: "assets/appstore-light.png"
-    dark: "assets/appstore-dark.png"
+    light: "assets/clients/icons/appstore-light.png"
+    dark: "assets/clients/icons/appstore-dark.png"
   google-playstore:
-    single: "assets/google-play-badge.png"
+    single: "assets/clients/icons/google-play-badge.png"
   docker-hub:
     text: "🐳"
   f-droid:
-    single: "assets/f-droid.png"
+    single: "assets/clients/icons/f-droid.png"
   amazon-appstore:
-    single: "assets/amazon.png"
+    single: "assets/clients/icons/amazon.png"
 
 
 targets:
