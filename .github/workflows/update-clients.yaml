@@ -21,8 +21,18 @@ jobs:
 
     - name: Run generate.sh to update README.md
       run: |
-        chmod +x generate.sh
-        ./generate.sh
+        go install github.com/awesome-jellyfin/clients-md-generator/cmd/generate@latest
+        generate -input clients.yaml -out-file clients.md
+
+        # clear clients.md
+        echo "" > CLIENTS.md
+        while read p; do
+          if [[ $p == "{{ CLIENTS }}" ]]; then
+            cat clients.md >> README.md
+          else
+            echo "$p" >> README.md
+          fi
+        done < README.template.md
 
     - name: Commit and push if there are changes
       run: |
