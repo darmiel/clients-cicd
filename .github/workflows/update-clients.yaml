@@ -6,6 +6,7 @@ on:
       - 'main'
     paths:
       - 'clients.yaml'
+  workflow_dispatch:
 
 jobs:
   build:
@@ -19,25 +20,24 @@ jobs:
       with:
         go-version: '1.21'
 
-    - name: Run generate.sh to update README.md
+    - name: Run generate.sh to update CLIENTS.md
       run: |
-        go install github.com/awesome-jellyfin/clients-md-generator/cmd/generate@latest
-        generate -input clients.yaml -out-file clients.md
+        go install github.com/awesome-jellyfin/clients-md-generator/cmd/generate@cb53ae2fa0a08f082525d9dd06bddbece01dca31
+        generate -input clients.yaml -out-file generated-clients.md
 
-        # clear clients.md
         echo "" > CLIENTS.md
         while read p; do
           if [[ $p == "{{ CLIENTS }}" ]]; then
-            cat clients.md >> README.md
+            cat generated-clients.md >> CLIENTS.md
           else
-            echo "$p" >> README.md
+            echo "$p" >> CLIENTS.md
           fi
-        done < README.template.md
+        done < CLIENTS.template.md
 
     - name: Commit and push if there are changes
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add README.md
-        git commit -m "Update README.md" --allow-empty || exit 0
+        git add CLIENTS.md
+        git commit -m "Update CLIENTS.md" --allow-empty || exit 0
         git push
